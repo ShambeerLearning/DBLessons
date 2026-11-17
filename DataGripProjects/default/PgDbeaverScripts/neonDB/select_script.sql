@@ -14,3 +14,19 @@ select
     users.name
 from purchases
 inner join users on purchases.user_id = users.id;
+
+select
+    users.name
+from purchases
+inner join users on purchases.user_id = users.id;
+
+select
+    products.name
+from purchases
+inner join products on purchases.product_id = products.id;
+
+select
+    users.name
+from purchases
+inner join users on purchases.user_id = users.id
+where users.name = 'Александр';
